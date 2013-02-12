@@ -1,0 +1,90 @@
+@sml: 0.3;
+@nml: 0.5;
+@lrg: 0.8;
+@orgl: 1;
+
+.logo(@path,@width,@height,@percentage:@orgl){
+	background-image: url(@path);
+	background-size:@width*@percentage @height*@percentage;
+	background-repeat:no-repeat;
+	width:@width*@percentage;
+	height:@height*@percentage;
+
+}
+
+.rmit-logo-rtbw(@percentage:@orgl){
+	.logo("./img/rt_bw.jpg",548px,231px,@percentage);
+}
+
+.rmit-logo-rtbw-small{.rmit-logo-rtbw(@sml)}
+.rmit-logo-rtbw-normal{.rmit-logo-rtbw(@nml)}
+.rmit-logo-rtbw-large{.rmit-logo-rtbw(@lrg)}
+.rmit-logo-rtbw-original{.rmit-logo-rtbw()}
+
+
+.rmit-logo-rt(@percentage:@orgl){
+	.logo("./img/rt_colour.jpg",543px,232px,@percentage);
+}
+
+.rmit-logo-rt-small{.rmit-logo-rt(@sml)}
+.rmit-logo-rt-normal{.rmit-logo-rt(@nml)}
+.rmit-logo-rt-large{.rmit-logo-rt(@lrg)}
+.rmit-logo-rt-original{.rmit-logo-rt()}
+
+.rmit-logo-rt-reverse(@percentage:@orgl){
+	.logo("./img/rt_colour_reverse.jpg",547px,233px,@percentage);
+}
+
+.rmit-logo-rt-reverse-small{.rmit-logo-rt-reverse(@sml)}
+.rmit-logo-rt-reverse-normal{.rmit-logo-rt-reverse(@nml)}
+.rmit-logo-rt-reverse-large{.rmit-logo-rt-reverse(@lrg)}
+.rmit-logo-rt-reverse-original{.rmit-logo-rt-reverse()}
+
+.rmit-logo-publishing(@percentage:@orgl){
+	.logo("./img/publishing_colour.jpg",590px,235px,@percentage);
+}
+
+.rmit-logo-publishing-small{.rmit-logo-publishing(@sml)}
+.rmit-logo-publishing-normal{.rmit-logo-publishing(@nml)}
+.rmit-logo-publishing-large{.rmit-logo-publishing(@lrg)}
+.rmit-logo-publishing-original{.rmit-logo-publishing()}
+
+
+.rmit-logo-publishing-reverse(@percentage:@orgl){
+	.logo("./img/publishing_colour_reverse.jpg",590px,235px,@percentage);
+}
+
+.rmit-logo-publishing-reverse-small{.rmit-logo-publishing-reverse(@sml)}
+.rmit-logo-publishing-reverse-normal{.rmit-logo-publishing-reverse(@nml)}
+.rmit-logo-publishing-reverse-large{.rmit-logo-publishing-reverse(@lrg)}
+.rmit-logo-publishing-reverse-original{.rmit-logo-publishing-reverse()}
+
+
+.rmit-logo-publishingbw(@percentage:@orgl){
+	.logo("./img/publishing_bw.jpg",593px,231px,@percentage);
+}
+
+.rmit-logo-publishingbw-small{.rmit-logo-publishingbw(@sml)}
+.rmit-logo-publishingbw-normal{.rmit-logo-publishingbw(@nml)}
+.rmit-logo-publishingbw-large{.rmit-logo-publishingbw(@lrg)}
+.rmit-logo-publishingbw-original{.rmit-logo-publishingbw()}
+
+
+.rmit-logo-publishingbw-reverse(@percentage:@orgl){
+	.logo("./img/publishing_bw_reverse.jpg",586px,228px,@percentage);
+}
+
+.rmit-logo-publishingbw-reverse-small{.rmit-logo-publishingbw-reverse(@sml)}
+.rmit-logo-publishingbw-reverse-normal{.rmit-logo-publishingbw-reverse(@nml)}
+.rmit-logo-publishingbw-reverse-large{.rmit-logo-publishingbw-reverse(@lrg)}
+.rmit-logo-publishingbw-reverse-original{.rmit-logo-publishingbw-reverse()}
+
+
+.rmit-logo-informit(@percentage:@orgl){
+	.logo("./img/informit_colour.jpg",1623px,472px,@percentage);
+}
+.rmit-logo-rt-informit-small{.rmit-logo-informit(0.2)}
+.rmit-logo-rt-informit-normal{.rmit-logo-informit(0.3)}
+.rmit-logo-rt-informit-large{.rmit-logo-informit(0.5)}
+.rmit-logo-rt-informit-original{.rmit-logo-informit()}
+

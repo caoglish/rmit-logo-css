@@ -1,0 +1,25 @@
+div.demo-block{
+	width:128px;
+	height:60px;
+	margin:10px;
+	padding:10px;
+	border-radius:5px;
+	float:left;
+}
+
+div.demo-group{
+	display: block; 
+	clear: both;
+	float:none;
+	margin:10px;
+	padding:10px;
+	border:black;
+	
+}
+
+div.demo-logo{
+
+	margin:10px;
+	padding:10px;
+	float:left;
+}
