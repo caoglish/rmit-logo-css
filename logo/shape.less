@@ -1,0 +1,41 @@
+@import "rmit-color.less";
+div{
+	margin:20px;
+	clear:both;
+}
+
+#circle {
+	width:140px;
+	height:140px;
+	border-radius:70px;
+	.rmit-red;
+}
+
+
+#square {
+	width:140px;
+	height:140px;
+	.rmit-gray;
+}
+
+#oval {
+	width:200px;
+	height:100px;
+    border-radius: ~"100px / 50px";
+	.rmit-pms226;
+}
+
+#up-triangle{
+	width:0px;
+	height:0px;
+	border-bottom: 120px solid @pms7496; 
+	border-left: 60px solid transparent; 
+    border-right: 60px solid transparent; 
+}
+
+#triangle-square {
+	height: 0px;
+	width: 0px;
+	border:100px solid;
+	border-color: @pms485 @pms7496 @pms7469 @pmsyellow;
+}
