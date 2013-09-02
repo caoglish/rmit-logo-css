@@ -84,7 +84,7 @@
 	}
 }
 
-
+//define the logo with different color stytle
 .f-rmit-logo-base-color(@size:@logo-size-nml,@department:'TRAINING'){
 	.f-rmit-logo(@size,@department);
 	
@@ -92,68 +92,48 @@
 		.f-rmit-logo(@size,@department,@pms485,white,black);
 	}
 	&.bw{
-		.f-rmit-logo(@size,@department,@pms485,white,black);
+		.f-rmit-logo(@size,@department,black,black,white);
 	}
 	&.bw.reverse{
 		.f-rmit-logo(@size,@department,white,white,black);
 	}
+}
 
+//define teh logo with different size
+.f-rmit-logo-base-color-and-base-size(@tag,@department){
+	(~".@{tag}-sml") {
+			.f-rmit-logo-base-color(@logo-size-sml,@department);
+	}
+	
+	(~".@{tag}"),(~".@{tag}-nml") {
+			.f-rmit-logo-base-color(@logo-size-nml,@department);
+	}
+	
+	(~".@{tag}-lrg") {
+			.f-rmit-logo-base-color(@logo-size-lrg,@department);
+	}
+	
+	(~".@{tag}-xlrg") {
+			.f-rmit-logo-base-color(@logo-size-xlrg,@department);
+	}
+	
+	(~".@{tag}-xxlrg") {
+			.f-rmit-logo-base-color(@logo-size-xxlrg,@department);
+	}
+	
+	(~".@{tag}-xxxlrg") {
+			.f-rmit-logo-base-color(@logo-size-xxxlrg,@department);
+	}
 }
 
 
-//rmit training logo
-.rmit-logo-sml{
-	.f-rmit-logo-base-color(@logo-size-sml);
-}
-
-.rmit-logo,.rmit-logo-nml{
-	.f-rmit-logo-base-color();
-}
-.rmit-logo-lrg{
-	.f-rmit-logo-base-color(@logo-size-lrg);
-}
-
-.rmit-logo-xlrg{
-	.f-rmit-logo-base-color(@logo-size-xlrg);
-}
-.rmit-logo-xxlrg{
-	.f-rmit-logo-base-color(@logo-size-xxlrg);
-}
-.rmit-logo-xxxlrg{
-	.f-rmit-logo-base-color(@logo-size-xxxlrg);
-}
-
-//rmit publishing 
-.f-rmitp-logo(@size:@logo-size-nml){
-	.f-rmit-logo-base-color(@size,'PUBLISHISH');
-}
-
-.rmitp-logo,.rmitp-logo-nml{
-	.f-rmitp-logo;
-}
-
-.rmitp-logo-lrg{
-	.f-rmitp-logo(@logo-size-lrg);
-}
+.f-rmit-logo-base-color-and-base-size("rmit-logo","TRAINING");
+.f-rmit-logo-base-color-and-base-size("rmitp-logo","PUBLISHISH");
+.f-rmit-logo-base-color-and-base-size("rmit-uni-logo","UNIVERSITY");
+.f-rmit-logo-base-color-and-base-size("rmit-logo-shortcourse","SHORT \A COURSES");
+.f-rmit-logo-base-color-and-base-size("rmit-logo-rew","ENGLISH \A WORLDWIDE");
 
 
-
-
-
-//rmit university
-.rmit-uni-logo.reverse,.rmit-uni-logo-nml.reverse{
-	.f-rmit-logo(@logo-size-nml,'UNIVERSITY',@pms485,white,black);
-}
-
-// rmit short course
-.rmit-logo-shortcourse{
-	.f-rmit-logo(@logo-size-nml,'SHORT \A COURSES');
-}
-
-// rmit english world wide
-.rmit-logo-rew{
-	.f-rmit-logo(@logo-size-nml,'ENGLISH \A WORLDWIDE');
-}
 
 //rmit test
 .rmit-logo-test{
