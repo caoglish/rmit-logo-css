@@ -1,0 +1,1037 @@
+/* less function */
+/*  */
+/*red*/
+.rmit-pms485 {
+  background-color: #ee3224;
+  color: #ffffff;
+}
+.rmit-red {
+  background-color: #ee3224;
+  color: #ffffff;
+}
+/* black */
+.rmit-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* gray */
+.rmit-pms414 {
+  background-color: #bebdb0;
+  color: #000000;
+}
+.rmit-gray {
+  background-color: #bebdb0;
+  color: #000000;
+}
+/* yellow */
+.rmit-pmsyellow {
+  background-color: #ffee00;
+  color: #000000;
+}
+.rmit-yellow {
+  background-color: #ffee00;
+  color: #000000;
+}
+/*pms*/
+.rmit-pms151 {
+  background-color: #f89828;
+  color: #ffffff;
+}
+.rmit-pms226 {
+  background-color: #ec0b8d;
+  color: #ffffff;
+}
+.rmit-pms390 {
+  background-color: #c2cd23;
+  color: #ffffff;
+}
+.rmit-pms117 {
+  background-color: #deb408;
+  color: #ffffff;
+}
+.rmit-pms167 {
+  background-color: #d06f1a;
+  color: #ffffff;
+}
+.rmit-pms228 {
+  background-color: #9c0058;
+  color: #ffffff;
+}
+.rmit-pms2602 {
+  background-color: #77278b;
+  color: #ffffff;
+}
+.rmit-pmsprocessblue {
+  background-color: #0093d1;
+  color: #ffffff;
+}
+.rmit-pms7469 {
+  background-color: #006595;
+  color: #ffffff;
+}
+.rmit-pms321 {
+  background-color: #008c99;
+  color: #ffffff;
+}
+.rmit-pms7496 {
+  background-color: #6d8d24;
+  color: #ffffff;
+}
+@font-face {
+  font-family: "Museo300";
+  font-weight: normal;
+  src: url("fonts/museo300.eot?#iefix") format("embedded-opentype"), url("fonts/museo300.woff") format("woff"), url("fonts/museo300.ttf") format("truetype"), url("fonts/museo300.svg#Museo300") format("svg");
+}
+@font-face {
+  font-family: "Museo500";
+  font-weight: normal;
+  src: url("fonts/museo500.eot?#iefix") format("embedded-opentype"), url("fonts/museo500.woff") format("woff"), url("fonts/museo500.ttf") format("truetype"), url("fonts/museo500.svg#Museo500") format("svg");
+}
+.rmit-logo,
+.rmit-logo-nml {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmit-logo span[class|="logo"],
+.rmit-logo-nml span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo span[class|="logo"].logo-left,
+.rmit-logo-nml span[class|="logo"].logo-left,
+.rmit-logo span[class|="logo"].logo-middle,
+.rmit-logo-nml span[class|="logo"].logo-middle,
+.rmit-logo span[class|="logo"].logo-right,
+.rmit-logo-nml span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmit-logo span[class|="logo"].logo-left,
+.rmit-logo-nml span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmit-logo span[class|="logo"].logo-middle,
+.rmit-logo-nml span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmit-logo span[class|="logo"].logo-right,
+.rmit-logo-nml span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmit-logo span[class|="logo"].logo-name:before,
+.rmit-logo-nml span[class|="logo"].logo-name:before,
+.rmit-logo span[class|="logo"].logo-name:after,
+.rmit-logo-nml span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo span[class|="logo"].logo-name:before,
+.rmit-logo-nml span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo span[class|="logo"].logo-name,
+.rmit-logo-nml span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmit-logo span[class|="logo"].logo-name:after,
+.rmit-logo-nml span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-lrg {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 1120px;
+  clear: left;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.rmit-logo-lrg span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-lrg span[class|="logo"].logo-left,
+.rmit-logo-lrg span[class|="logo"].logo-middle,
+.rmit-logo-lrg span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 70px;
+}
+.rmit-logo-lrg span[class|="logo"].logo-left {
+  top: 80px;
+  height: 40px;
+  width: 30px;
+}
+.rmit-logo-lrg span[class|="logo"].logo-middle {
+  top: 40px;
+  height: 120px;
+  width: 30px;
+}
+.rmit-logo-lrg span[class|="logo"].logo-right {
+  height: 200px;
+  width: 100px;
+  border-radius: 0 100px 100px 0;
+}
+.rmit-logo-lrg span[class|="logo"].logo-name:before,
+.rmit-logo-lrg span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-lrg span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 280px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-lrg span[class|="logo"].logo-name {
+  margin-left: 40px;
+}
+.rmit-logo-lrg span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 136px;
+  clear: both;
+  margin-top: -40px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-sml {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 280px;
+  clear: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.rmit-logo-sml span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-sml span[class|="logo"].logo-left,
+.rmit-logo-sml span[class|="logo"].logo-middle,
+.rmit-logo-sml span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 17.5px;
+}
+.rmit-logo-sml span[class|="logo"].logo-left {
+  top: 20px;
+  height: 10px;
+  width: 7.5px;
+}
+.rmit-logo-sml span[class|="logo"].logo-middle {
+  top: 10px;
+  height: 30px;
+  width: 7.5px;
+}
+.rmit-logo-sml span[class|="logo"].logo-right {
+  height: 50px;
+  width: 25px;
+  border-radius: 0 25px 25px 0;
+}
+.rmit-logo-sml span[class|="logo"].logo-name:before,
+.rmit-logo-sml span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-sml span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 70px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-sml span[class|="logo"].logo-name {
+  margin-left: 10px;
+}
+.rmit-logo-sml span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 34px;
+  clear: both;
+  margin-top: -10px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-xlrg {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 2240px;
+  clear: left;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+.rmit-logo-xlrg span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-left,
+.rmit-logo-xlrg span[class|="logo"].logo-middle,
+.rmit-logo-xlrg span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 140px;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-left {
+  top: 160px;
+  height: 80px;
+  width: 60px;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-middle {
+  top: 80px;
+  height: 240px;
+  width: 60px;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-right {
+  height: 400px;
+  width: 200px;
+  border-radius: 0 200px 200px 0;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-name:before,
+.rmit-logo-xlrg span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 560px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-name {
+  margin-left: 80px;
+}
+.rmit-logo-xlrg span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 272px;
+  clear: both;
+  margin-top: -80px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-xxlrg {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 4480px;
+  clear: left;
+  padding-right: 320px;
+  padding-left: 320px;
+}
+.rmit-logo-xxlrg span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-left,
+.rmit-logo-xxlrg span[class|="logo"].logo-middle,
+.rmit-logo-xxlrg span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 280px;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-left {
+  top: 320px;
+  height: 160px;
+  width: 120px;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-middle {
+  top: 160px;
+  height: 480px;
+  width: 120px;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-right {
+  height: 800px;
+  width: 400px;
+  border-radius: 0 400px 400px 0;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-name:before,
+.rmit-logo-xxlrg span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 1120px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-name {
+  margin-left: 160px;
+}
+.rmit-logo-xxlrg span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 544px;
+  clear: both;
+  margin-top: -160px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-xxxlrg {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 8960px;
+  clear: left;
+  padding-right: 640px;
+  padding-left: 640px;
+}
+.rmit-logo-xxxlrg span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-left,
+.rmit-logo-xxxlrg span[class|="logo"].logo-middle,
+.rmit-logo-xxxlrg span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 560px;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-left {
+  top: 640px;
+  height: 320px;
+  width: 240px;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-middle {
+  top: 320px;
+  height: 960px;
+  width: 240px;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-right {
+  height: 1600px;
+  width: 800px;
+  border-radius: 0 800px 800px 0;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-name:before,
+.rmit-logo-xxxlrg span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 2240px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-name {
+  margin-left: 320px;
+}
+.rmit-logo-xxxlrg span[class|="logo"].logo-name:after {
+  content: 'TRAINING';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 1088px;
+  clear: both;
+  margin-top: -320px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmitp-logo,
+.rmitp-logo-nml {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmitp-logo span[class|="logo"],
+.rmitp-logo-nml span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmitp-logo span[class|="logo"].logo-left,
+.rmitp-logo-nml span[class|="logo"].logo-left,
+.rmitp-logo span[class|="logo"].logo-middle,
+.rmitp-logo-nml span[class|="logo"].logo-middle,
+.rmitp-logo span[class|="logo"].logo-right,
+.rmitp-logo-nml span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmitp-logo span[class|="logo"].logo-left,
+.rmitp-logo-nml span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmitp-logo span[class|="logo"].logo-middle,
+.rmitp-logo-nml span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmitp-logo span[class|="logo"].logo-right,
+.rmitp-logo-nml span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmitp-logo span[class|="logo"].logo-name:before,
+.rmitp-logo-nml span[class|="logo"].logo-name:before,
+.rmitp-logo span[class|="logo"].logo-name:after,
+.rmitp-logo-nml span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmitp-logo span[class|="logo"].logo-name:before,
+.rmitp-logo-nml span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmitp-logo span[class|="logo"].logo-name,
+.rmitp-logo-nml span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmitp-logo span[class|="logo"].logo-name:after,
+.rmitp-logo-nml span[class|="logo"].logo-name:after {
+  content: 'PUBLISHISH';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmitp-logo-lrg {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 1120px;
+  clear: left;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.rmitp-logo-lrg span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-left,
+.rmitp-logo-lrg span[class|="logo"].logo-middle,
+.rmitp-logo-lrg span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 70px;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-left {
+  top: 80px;
+  height: 40px;
+  width: 30px;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-middle {
+  top: 40px;
+  height: 120px;
+  width: 30px;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-right {
+  height: 200px;
+  width: 100px;
+  border-radius: 0 100px 100px 0;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-name:before,
+.rmitp-logo-lrg span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 280px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-name {
+  margin-left: 40px;
+}
+.rmitp-logo-lrg span[class|="logo"].logo-name:after {
+  content: 'PUBLISHISH';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 136px;
+  clear: both;
+  margin-top: -40px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmitp-logo.reverse,
+.rmitp-logo-nml.reverse {
+  float: left;
+  position: relative;
+  background-color: #000000;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmitp-logo.reverse span[class|="logo"],
+.rmitp-logo-nml.reverse span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-left,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-left,
+.rmitp-logo.reverse span[class|="logo"].logo-middle,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-middle,
+.rmitp-logo.reverse span[class|="logo"].logo-right,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-left,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-middle,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-right,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo.reverse span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #ffffff;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-name,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmitp-logo.reverse span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.reverse span[class|="logo"].logo-name:after {
+  content: 'PUBLISHISH';
+  font-weight: bold;
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmitp-logo.bw,
+.rmitp-logo-nml.bw {
+  float: left;
+  position: relative;
+  background-color: #000000;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmitp-logo.bw span[class|="logo"],
+.rmitp-logo-nml.bw span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmitp-logo.bw span[class|="logo"].logo-left,
+.rmitp-logo-nml.bw span[class|="logo"].logo-left,
+.rmitp-logo.bw span[class|="logo"].logo-middle,
+.rmitp-logo-nml.bw span[class|="logo"].logo-middle,
+.rmitp-logo.bw span[class|="logo"].logo-right,
+.rmitp-logo-nml.bw span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmitp-logo.bw span[class|="logo"].logo-left,
+.rmitp-logo-nml.bw span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmitp-logo.bw span[class|="logo"].logo-middle,
+.rmitp-logo-nml.bw span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmitp-logo.bw span[class|="logo"].logo-right,
+.rmitp-logo-nml.bw span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmitp-logo.bw span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.bw span[class|="logo"].logo-name:before,
+.rmitp-logo.bw span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.bw span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmitp-logo.bw span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.bw span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #ffffff;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmitp-logo.bw span[class|="logo"].logo-name,
+.rmitp-logo-nml.bw span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmitp-logo.bw span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.bw span[class|="logo"].logo-name:after {
+  content: 'PUBLISHISH';
+  font-weight: bold;
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmitp-logo.bw.reverse,
+.rmitp-logo-nml.bw.reverse {
+  float: left;
+  position: relative;
+  background-color: #000000;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmitp-logo.bw.reverse span[class|="logo"],
+.rmitp-logo-nml.bw.reverse span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-left,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-left,
+.rmitp-logo.bw.reverse span[class|="logo"].logo-middle,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-middle,
+.rmitp-logo.bw.reverse span[class|="logo"].logo-right,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-right {
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-left,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-middle,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-right,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo.bw.reverse span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-name:before,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #ffffff;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-name,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmitp-logo.bw.reverse span[class|="logo"].logo-name:after,
+.rmitp-logo-nml.bw.reverse span[class|="logo"].logo-name:after {
+  content: 'PUBLISHISH';
+  font-weight: bold;
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-uni-logo.reverse,
+.rmit-uni-logo-nml.reverse {
+  float: left;
+  position: relative;
+  background-color: #000000;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmit-uni-logo.reverse span[class|="logo"],
+.rmit-uni-logo-nml.reverse span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-left,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-left,
+.rmit-uni-logo.reverse span[class|="logo"].logo-middle,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-middle,
+.rmit-uni-logo.reverse span[class|="logo"].logo-right,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-left,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-middle,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-right,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-name:before,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-name:before,
+.rmit-uni-logo.reverse span[class|="logo"].logo-name:after,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-name:before,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #ffffff;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-name,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmit-uni-logo.reverse span[class|="logo"].logo-name:after,
+.rmit-uni-logo-nml.reverse span[class|="logo"].logo-name:after {
+  content: 'UNIVERSITY';
+  font-weight: bold;
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-shortcourse {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmit-logo-shortcourse span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-left,
+.rmit-logo-shortcourse span[class|="logo"].logo-middle,
+.rmit-logo-shortcourse span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-name:before,
+.rmit-logo-shortcourse span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmit-logo-shortcourse span[class|="logo"].logo-name:after {
+  content: 'SHORT \A COURSES';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-rew {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  width: 560px;
+  clear: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rmit-logo-rew span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-rew span[class|="logo"].logo-left,
+.rmit-logo-rew span[class|="logo"].logo-middle,
+.rmit-logo-rew span[class|="logo"].logo-right {
+  background-color: #ee3224;
+  margin-top: 35px;
+}
+.rmit-logo-rew span[class|="logo"].logo-left {
+  top: 40px;
+  height: 20px;
+  width: 15px;
+}
+.rmit-logo-rew span[class|="logo"].logo-middle {
+  top: 20px;
+  height: 60px;
+  width: 15px;
+}
+.rmit-logo-rew span[class|="logo"].logo-right {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 50px 50px 0;
+}
+.rmit-logo-rew span[class|="logo"].logo-name:before,
+.rmit-logo-rew span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-rew span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #000000;
+  font-size: 140px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-rew span[class|="logo"].logo-name {
+  margin-left: 20px;
+}
+.rmit-logo-rew span[class|="logo"].logo-name:after {
+  content: 'ENGLISH \A WORLDWIDE';
+  font-weight: bold;
+  border-top: 2px solid #000000;
+  color: #000000;
+  font-size: 68px;
+  clear: both;
+  margin-top: -20px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}
+.rmit-logo-test {
+  float: left;
+  position: relative;
+  background-color: #0093d1;
+  width: 1120px;
+  clear: left;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.rmit-logo-test span[class|="logo"] {
+  float: left;
+  position: relative;
+}
+.rmit-logo-test span[class|="logo"].logo-left,
+.rmit-logo-test span[class|="logo"].logo-middle,
+.rmit-logo-test span[class|="logo"].logo-right {
+  background-color: #ffee00;
+  margin-top: 70px;
+}
+.rmit-logo-test span[class|="logo"].logo-left {
+  top: 80px;
+  height: 40px;
+  width: 30px;
+}
+.rmit-logo-test span[class|="logo"].logo-middle {
+  top: 40px;
+  height: 120px;
+  width: 30px;
+}
+.rmit-logo-test span[class|="logo"].logo-right {
+  height: 200px;
+  width: 100px;
+  border-radius: 0 100px 100px 0;
+}
+.rmit-logo-test span[class|="logo"].logo-name:before,
+.rmit-logo-test span[class|="logo"].logo-name:after {
+  display: block;
+}
+.rmit-logo-test span[class|="logo"].logo-name:before {
+  content: 'RMIT';
+  color: #77278b;
+  font-size: 280px;
+  font-family: 'Bodoni MT', Arial, Verdana;
+}
+.rmit-logo-test span[class|="logo"].logo-name {
+  margin-left: 40px;
+}
+.rmit-logo-test span[class|="logo"].logo-name:after {
+  content: 'SHORT \A COURSES';
+  font-weight: bold;
+  border-top: 2px solid #77278b;
+  color: #77278b;
+  font-size: 136px;
+  clear: both;
+  margin-top: -40px;
+  font-family: 'Museo300', Arial, Verdana;
+  white-space: pre-wrap;
+}

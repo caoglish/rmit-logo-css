@@ -1,3 +1,12 @@
+.bg-color(@bgcolor){
+	background-color:@bgcolor;
+}
+
+.font-color(@fontcolor){
+	color:@fontcolor;
+}
+
+
 /* less function */
 .color(@bgcolor,@fontcolor:#fff){
 	background-color:@bgcolor;
@@ -6,10 +15,158 @@
 
 
 /*  */
-.rmit{
+.rmit{}
 
+
+/*font color*/
+/*red*/
+.rmit-font-pms485{
+	.font-color(#ee3224);
 }
 
+.rmit-font-red{
+	.rmit-font-pms485;
+}
+
+/* black */
+.rmit-font-black{
+	.font-color(#000000);
+}
+
+/* gray */
+.rmit-font-pms414{
+	.font-color(#bebdb0);
+}
+
+.rmit-font-gray{
+	.rmit-font-pms414;
+}
+
+/* yellow */
+.rmit-font-pmsyellow{
+	.font-color(#FFEE00);
+}
+
+.rmit-font-yellow{
+	.rmit-font-pmsyellow
+}
+
+
+/*pms*/
+.rmit-font-pms151{
+	.font-color(#f89828);
+}
+
+.rmit-font-pms226{
+	.font-color(#ec0b8d);
+}
+
+.rmit-font-pms390{
+	.font-color(#c2cd23);
+}
+
+.rmit-font-pms117{
+	.font-color(#deb408);
+}
+
+.rmit-font-pms167{
+	.font-color(#d06f1a);
+}
+.rmit-font-pms228{
+	.font-color(#9c0058);
+}
+.rmit-font-pms2602{
+	.font-color(#77278b);
+}
+.rmit-font-pmsprocessblue{
+	.font-color(#0093d1);
+}
+.rmit-font-pms7469{
+	.font-color(#006595);
+}
+.rmit-font-pms321{
+	.font-color(#008c99);
+}
+.rmit-font-pms7496{
+	.font-color(#6d8d24);
+}
+
+
+/*bg color*/
+/*red*/
+.rmit-bg-pms485{
+	.bg-color(#ee3224);
+}
+
+.rmit-bg-red{
+	.rmit-bg-pms485;
+}
+
+/* black */
+.rmit-bg-black{
+	.bg-color(#000000);
+}
+
+/* gray */
+.rmit-bg-pms414{
+	.bg-color(#bebdb0);
+}
+
+.rmit-bg-gray{
+	.rmit-bg-pms414;
+}
+
+/* yellow */
+.rmit-bg-pmsyellow{
+	.bg-color(#FFEE00);
+}
+
+.rmit-bg-yellow{
+	.rmit-bg-pmsyellow
+}
+
+
+/*pms*/
+.rmit-bg-pms151{
+	.bg-color(#f89828);
+}
+
+.rmit-bg-pms226{
+	.bg-color(#ec0b8d);
+}
+
+.rmit-bg-pms390{
+	.bg-color(#c2cd23);
+}
+
+.rmit-bg-pms117{
+	.bg-color(#deb408);
+}
+
+.rmit-bg-pms167{
+	.bg-color(#d06f1a);
+}
+.rmit-bg-pms228{
+	.bg-color(#9c0058);
+}
+.rmit-bg-pms2602{
+	.bg-color(#77278b);
+}
+.rmit-bg-pmsprocessblue{
+	.bg-color(#0093d1);
+}
+.rmit-bg-pms7469{
+	.bg-color(#006595);
+}
+.rmit-bg-pms321{
+	.bg-color(#008c99);
+}
+.rmit-bg-pms7496{
+	.bg-color(#6d8d24);
+}
+
+
+/*bg and font color*/
 /*red*/
 .rmit-pms485{
 	.color(#ee3224);
@@ -26,7 +183,7 @@
 
 /* gray */
 .rmit-pms414{
-	.color(#bebdb0,black);
+	.color(#bebdb0);
 }
 
 .rmit-gray{
@@ -35,7 +192,7 @@
 
 /* yellow */
 .rmit-pmsyellow{
-	.color(#FFEE00,black);
+	.color(#FFEE00);
 }
 
 .rmit-yellow{

@@ -14,35 +14,39 @@
 	float:left;
 	position:relative;
 	background-color:@background-color;
-	width:@size*26;
-	height:@size*11;
+	width:unit(@size*30,px);
+	//height:@size*11;
 	clear:left;
-	padding-right:@size;
-	padding-left:@size;
+	padding-right:unit(@size*0.75,px);
+	padding-left:unit(@size*2,px);
 	span[class|="logo"]{
 		float:left;
 		position:relative;
 				
-		&.logo-left,&.logo-middle,&.logo-right{
+		&.logo-left,&.logo-middle,&.logo-right,&.logo-half-circle{
 			background-color:@logo-color;
-			margin-top:unit(@size*0.75,px);
+			margin-top:unit(@size*1.75,px);
 		}
 		
 		&.logo-left{
-			top:@size*2;
+			top:unit(@size*2,px);
 			height:unit(@size,px);
 			width:unit(@size*0.75,px);
-			
-			
 		}
 		
 		&.logo-middle{
-			top:@size;
+			top:unit(@size,px);
 			height:unit(@size*3,px);
 			width:unit(@size*0.75,px);
 		}
 		
 		&.logo-right{
+				width:unit(@size*0.75,px);
+				height:unit(@size*5,px); 
+				background-color:@logo-color;
+			}
+			
+		&.logo-half-circle{
 			height:unit(@size*5,px); 
 			width:unit(@size*5/2,px);
 			border-radius:0 unit(@size*5/2,px) unit(@size*5/2,px) 0;
@@ -57,13 +61,13 @@
 		&.logo-name:before{
 			content:'RMIT';
 			color:@name-color;
-			font-size:unit(@size*6,px);
+			font-size:unit(@size*7,px);
 			font-family: 'Bodoni MT',Arial,Verdana;
 		}
 		
 		&.logo-name{
-			margin-left:unit(@size*0.75,px);;
-			
+			margin-left:unit(@size,px);;
+			display:block;
 		}
 		
 		&.logo-name:after{
@@ -75,54 +79,83 @@
 			clear:both;
 			margin-top:unit(-@size*1,px);
 			font-family: 'Museo300',Arial,Verdana;
+			white-space: pre-wrap;
 		}
-		
 	}
 }
 
+
+.f-rmit-logo-base-color(@size:@logo-size-nml,@department:'TRAINING'){
+	.f-rmit-logo(@size,@department);
+	
+	&.reverse{
+		.f-rmit-logo(@size,@department,@pms485,white,black);
+	}
+	&.bw{
+		.f-rmit-logo(@size,@department,@pms485,white,black);
+	}
+	&.bw.reverse{
+		.f-rmit-logo(@size,@department,white,white,black);
+	}
+
+}
+
+
+//rmit training logo
+.rmit-logo-sml{
+	.f-rmit-logo-base-color(@logo-size-sml);
+}
+
 .rmit-logo,.rmit-logo-nml{
-	.f-rmit-logo();
+	.f-rmit-logo-base-color();
 }
 .rmit-logo-lrg{
-	.f-rmit-logo(@logo-size-lrg);
+	.f-rmit-logo-base-color(@logo-size-lrg);
 }
-.rmit-logo-sml{
-	.f-rmit-logo(@logo-size-sml);
-}
+
 .rmit-logo-xlrg{
-	.f-rmit-logo(@logo-size-xlrg);
+	.f-rmit-logo-base-color(@logo-size-xlrg);
 }
 .rmit-logo-xxlrg{
-	.f-rmit-logo(@logo-size-xxlrg);
+	.f-rmit-logo-base-color(@logo-size-xxlrg);
 }
 .rmit-logo-xxxlrg{
-	.f-rmit-logo(@logo-size-xxxlrg);
+	.f-rmit-logo-base-color(@logo-size-xxxlrg);
+}
+
+//rmit publishing 
+.f-rmitp-logo(@size:@logo-size-nml){
+	.f-rmit-logo-base-color(@size,'PUBLISHISH');
 }
 
 .rmitp-logo,.rmitp-logo-nml{
-	.f-rmit-logo(@logo-size-nml,'PUBLISHISH');
+	.f-rmitp-logo;
 }
 
 .rmitp-logo-lrg{
-	.f-rmit-logo(@logo-size-lrg,'PUBLISHISH');
-}
-
-.rmitp-logo.reverse,.rmitp-logo-nml.reverse{
-	.f-rmit-logo(@logo-size-nml,'PUBLISHISH',@pms485,white,black);
-}
-
-.rmitp-logo.bw,.rmitp-logo-nml.bw{
-	.f-rmit-logo(@logo-size-nml,'PUBLISHISH',@pms485,white,black);
-}
-.rmitp-logo.bw.reverse,.rmitp-logo-nml.bw.reverse{
-	.f-rmit-logo(@logo-size-nml,'PUBLISHISH',white,white,black);
+	.f-rmitp-logo(@logo-size-lrg);
 }
 
 
+
+
+
+//rmit university
 .rmit-uni-logo.reverse,.rmit-uni-logo-nml.reverse{
 	.f-rmit-logo(@logo-size-nml,'UNIVERSITY',@pms485,white,black);
 }
 
+// rmit short course
+.rmit-logo-shortcourse{
+	.f-rmit-logo(@logo-size-nml,'SHORT \A COURSES');
+}
+
+// rmit english world wide
+.rmit-logo-rew{
+	.f-rmit-logo(@logo-size-nml,'ENGLISH \A WORLDWIDE');
+}
+
+//rmit test
 .rmit-logo-test{
-	.f-rmit-logo(@logo-size-lrg,'Testing...',@pmsyellow,@pms2602,@pmsprocessblue);
+	.f-rmit-logo(@logo-size-lrg,'SHORT \A COURSES',@pmsyellow,@pms2602,@pmsprocessblue);
 }
