@@ -101,39 +101,39 @@
 	}
 }
 
-//define teh logo with different size
+//define the logo with different size
 .f-rmit-logo-base-color-and-base-size(@tag,@department){
-	(~".@{tag}-sml") {
+	.@{tag}-sml {
 			.f-rmit-logo-base-color(@logo-size-sml,@department);
 	}
 	
-	(~".@{tag}"),(~".@{tag}-nml") {
+	.@{tag},.@{tag}-nml {
 			.f-rmit-logo-base-color(@logo-size-nml,@department);
 	}
 	
-	(~".@{tag}-lrg") {
+	.@{tag}-lrg {
 			.f-rmit-logo-base-color(@logo-size-lrg,@department);
 	}
 	
-	(~".@{tag}-xlrg") {
+	.@{tag}-xlrg {
 			.f-rmit-logo-base-color(@logo-size-xlrg,@department);
 	}
 	
-	(~".@{tag}-xxlrg") {
+	.@{tag}-xxlrg {
 			.f-rmit-logo-base-color(@logo-size-xxlrg,@department);
 	}
 	
-	(~".@{tag}-xxxlrg") {
+	.@{tag}-xxxlrg {
 			.f-rmit-logo-base-color(@logo-size-xxxlrg,@department);
 	}
 }
 
 
-.f-rmit-logo-base-color-and-base-size("rmit-logo","TRAINING");
-.f-rmit-logo-base-color-and-base-size("rmitp-logo","PUBLISHISH");
-.f-rmit-logo-base-color-and-base-size("rmit-uni-logo","UNIVERSITY");
-.f-rmit-logo-base-color-and-base-size("rmit-logo-shortcourse","SHORT\A COURSES");
-.f-rmit-logo-base-color-and-base-size("rmit-logo-rew","ENGLISH\A WORLDWIDE");
+.f-rmit-logo-base-color-and-base-size(rmit-logo,"TRAINING");
+.f-rmit-logo-base-color-and-base-size(rmitp-logo,"PUBLISHING");
+.f-rmit-logo-base-color-and-base-size(rmit-uni-logo,"UNIVERSITY");
+.f-rmit-logo-base-color-and-base-size(rmit-logo-shortcourse,"SHORT\A COURSES");
+.f-rmit-logo-base-color-and-base-size(rmit-logo-rew,"ENGLISH\A WORLDWIDE");
 
 
 
